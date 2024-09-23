@@ -24,6 +24,8 @@ body{
 .main-header{
     padding: 12px 80px;
     background-color: aquamarine;
+    background-image: url('../img/jumbo.png');
+    background-size: cover;
 }
 .navbar{
     display: flex;
@@ -38,6 +40,38 @@ body{
    }
    .login{
     background-color: white;
-    padding: 10px 25px;
-    border-radius:20px ;
+    padding: 15px 25px;
+    border-radius:30px ;
+    color: black;
    }
+   /* COLONNE */
+   .col-100{
+    width: 100%;
+   }
+   .row{
+    width: 650px;
+    margin: auto;
+    margin-top: 60px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+   }
+.layout-1 .container{
+    text-align: center;
+    color: white;
+}
+.title{
+    font-size: 50px;
+}
+.description{
+    margin-top: 30px;
+    font-size: larger;
+    line-height: 30px;
+}
+.cta{
+    margin-top: 25px;
+}
+.browser{
+    background-color: black;
+    color: white;
+}
