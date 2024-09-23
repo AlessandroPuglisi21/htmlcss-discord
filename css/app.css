@@ -17,6 +17,7 @@ a {
 body{
 	background-color: #ffffff;
     font-family: "Roboto", sans-serif;
+    font-weight: bold;
 }
 .container{
     max-width: 1000px;
