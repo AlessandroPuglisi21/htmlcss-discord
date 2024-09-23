@@ -162,3 +162,6 @@ hr{
     border-radius: 20px;
     color: white;
 }
+.col-60 > img{
+    width: 100%;
+}
