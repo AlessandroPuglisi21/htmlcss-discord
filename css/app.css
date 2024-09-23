@@ -21,3 +21,23 @@ body{
     max-width: 900px;
     margin: 0 auto;
 }
+.main-header{
+    padding: 12px 80px;
+    background-color: aquamarine;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+   }
+   .main-menu{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    color: white;
+   }
+   .login{
+    background-color: white;
+    padding: 10px 25px;
+    border-radius:20px ;
+   }
